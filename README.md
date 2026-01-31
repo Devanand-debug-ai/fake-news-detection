@@ -1,84 +1,36 @@
-Fake News Detection
-Project Description
+# Fake News Detection
 
-Fake News Detection is a machine learning–based application that identifies whether a given news article is Fake or Real. The project uses Natural Language Processing (NLP) techniques to analyze text data and classify news content accurately.
+## Overview
+Fake News Detection is a machine learning–based project that classifies news articles as **Fake** or **Real** using Natural Language Processing (NLP) techniques. The system analyzes textual data and predicts the authenticity of news content, helping to reduce the spread of misinformation.
 
-With the increasing spread of misinformation on digital platforms, this system helps in detecting unreliable news by learning patterns from labeled datasets.
-
-Technologies Used
-
-Python
-
-Machine Learning (Scikit-learn)
-
-Natural Language Processing (NLP)
-
-TF-IDF Vectorizer
-
-Flask
-
-Pickle (.pkl)
-
-Project Structure
-fake-news-detection/
-├── app.py
-├── fake_news_model.pkl
-├── tfidf_vectorizer.pkl
-├── requirements.txt
-├── README.md
-
-How It Works
-
-User inputs a news article or text.
-
-The text is preprocessed and converted into numerical features using TF-IDF.
-
-The trained machine learning model analyzes the features.
-
-The system predicts whether the news is Fake or Real.
-
-Installation Steps
-
-Clone the repository
-
-git clone https://github.com/your-username/fake-news-detection.git
+## Technologies Used
+- Python
+- Scikit-learn
+- Natural Language Processing (NLP)
+- TF-IDF Vectorizer
+- Flask
+- Pickle (.pkl)
 
 
-Navigate to the project directory
-
-cd fake-news-detection
-
-
-Install required dependencies
-
-pip install -r requirements.txt
+## Working
+1. The user provides a news article or text as input.
+2. The input text is transformed using the TF-IDF vectorizer.
+3. The trained machine learning model analyzes the transformed data.
+4. The system predicts whether the news is **Fake** or **Real**.
 
 
-Run the application
+## Features
+- Detects fake and real news articles
+- Uses NLP and machine learning techniques
+- Fast prediction using a pre-trained model
+- Simple Flask-based backend
 
-python app.py
+## Future Scope
+- Integrate a web-based frontend
+- Improve accuracy using deep learning models
+- Add batch prediction support
+- Display prediction confidence levels
 
-Features
-
-Detects fake and real news using ML
-
-Fast predictions using pre-trained model
-
-Lightweight and simple Flask backend
-
-Easy to integrate with frontend applications
-
-Future Enhancements
-
-Improve accuracy using deep learning models
-
-Add a user-friendly web interface
-
-Support bulk news prediction
-
-Display prediction confidence score
-
-Author
-
-Devanand
+## Author
+Devanand  
 AI & Data Science Student
